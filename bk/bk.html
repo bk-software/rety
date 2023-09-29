@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+
+  <div class="container">
+    <div>
+      <h1>Recorder</h1>
+      <textarea id="recorder" cols="40" rows="10"></textarea>
+    </div>
+    <div>
+      <h1>Actions Log</h1>
+      <textarea id="action-log" cols="40" rows="10"></textarea>
+    </div>
+    <div>
+      <h1>Player</h1>
+      <textarea id="player" cols="40" rows="10"></textarea>
+      <div>
+        <button id="play-button">Play</button>
+        <button id="reset-button">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="bk.js" type="module"></script>
+</body>
+</html>
